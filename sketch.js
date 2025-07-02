@@ -35,7 +35,7 @@ const sketch = (p) => {
     p.preload = () => {
         // Se carga tu propia imagen 'smartphone_screen.PNG'.
         // Asegúrate de haber subido la imagen al editor de p5.js primero.
-        phoneScreenImg = p.loadImage('smartphone_screen.png');
+        phoneScreenImg = p.loadImage('smartphone_screen.PNG');
         // Carga la nueva imagen 'cargafinal.png' que se mostrará al final.
         finalImage = p.loadImage('cargafinal.png');
         // Carga la imagen 'imagenglitch.png' para usarla en los glitches.
